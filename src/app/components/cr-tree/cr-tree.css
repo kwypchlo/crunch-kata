@@ -1,0 +1,30 @@
+.cr-tree-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+  .cr-tree-list-subtree .cr-tree-list-item {
+    padding-left: 10px;
+  }
+
+  .cr-tree-list-item {
+    margin: 10px 0;
+  }
+
+    .cr-tree-list-item-title.is-expandable {
+      cursor: pointer;
+    }
+
+    .cr-tree-list-item-title.is-expandable:hover {
+      color: #888;
+    }
+
+    .cr-tree-list-item-bullet {
+      display: inline-block;
+      font-weight: bold;
+      color: #888;
+    }
+
+    .cr-tree-list-item-bullet.is-expanded {
+      transform: rotate(90deg);
+    }

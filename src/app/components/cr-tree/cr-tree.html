@@ -1,0 +1,10 @@
+<ul class="cr-tree-list">
+  <li class="cr-tree-list-item" ng-repeat="node in $ctrl.data track by $index" ng-switch="$ctrl.isNodeExpandable(node)">
+    <div class="cr-tree-list-item-title" ng-class="{ 'is-expandable': $ctrl.isNodeExpandable(node) }" ng-click="$ctrl.toggleNode(node)">
+      <span class="cr-tree-list-item-bullet" ng-switch-when="true" ng-class="{ 'is-expanded': $ctrl.isNodeExpanded(node) }">&rsaquo;</span>
+      <span>{{ node.title }}</span>
+    </div>
+
+    <cr-tree class="cr-tree-list-subtree" ng-switch-when="true" ng-if="$ctrl.isNodeExpanded(node)" data="node.children"></cr-tree>
+  </li>
+</ul>
