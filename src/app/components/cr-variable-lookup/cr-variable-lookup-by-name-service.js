@@ -3,6 +3,14 @@ export default function crVariableLookupByName() {
     getPositionByName
   };
 
+  /**
+   * Find position (index) of the element in the graph by it's name.
+   *
+   * @param {object} variables
+   * @param {object} order
+   * @param {string} name - name of the element
+   * @returns {Array|undefined} - array of indexes representing position ex. [ 2, 0, 1]
+   */
   function getPositionByName(variables, order, name) {
     const key = findKeyByVariableName(variables, name);
 
