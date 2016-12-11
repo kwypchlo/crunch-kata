@@ -26,7 +26,7 @@ It will start a local server using `webpack-dev-server` which will watch, build 
 * single run: `npm run build`
 * build files and watch: `npm start` (preferable)
 
-### Testing
+## Testing
 
 * single run: `npm test`
 * live mode (TDD style): `npm run test-watch`

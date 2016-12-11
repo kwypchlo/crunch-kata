@@ -19,12 +19,12 @@
       color: #888;
     }
 
-    .cr-tree-list-item-bullet {
-      display: inline-block;
-      font-weight: bold;
-      color: #888;
-    }
+      .cr-tree-list-item-title-bullet {
+        display: inline-block;
+        font-weight: bold;
+        color: #888;
+      }
 
-    .cr-tree-list-item-bullet.is-expanded {
-      transform: rotate(90deg);
-    }
+      .cr-tree-list-item-title-bullet.is-expanded {
+        transform: rotate(90deg);
+      }

@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "title": "Awareness Metrics",
+      "children": [
+        {
+          "title": "Taxis",
+          "children": [
+            {
+              "title": "Unaided Awareness (Taxis)"
+            },
+            {
+              "title": "Aided Awareness (Taxis)"
+            }
+          ]
+        },
+        {
+          "title": "Coffee",
+          "children": [
+            {
+              "title": "Unaided Awareness (Coffee Roasters)"
+            },
+            {
+              "title": "Aided Awareness (Coffee Roasters)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Purchase Consideration and Behavior",
+      "children": [
+        {
+          "title": "Taxis",
+          "children": [
+            {
+              "title": "Consideration"
+            },
+            {
+              "title": "Likely Purchase"
+            },
+            {
+              "title": "Usage"
+            },
+            {
+              "title": "Specific Service Usage"
+            }
+          ]
+        },
+        {
+          "title": "Coffee",
+          "children": [
+            {
+              "title": "Blue Bottle Coffee Usage"
+            },
+            {
+              "title": "Stumptown Coffee Roasters Usage"
+            },
+            {
+              "title": "Ritual Roasters Usage"
+            },
+            {
+              "title": "FOURBARREL Usage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Demographics and Technographics",
+      "children": [
+        {
+          "title": "Gender"
+        },
+        {
+          "title": "Education"
+        },
+        {
+          "title": "Marital Status"
+        },
+        {
+          "title": "Children Under 18"
+        },
+        {
+          "title": "Family Income"
+        }
+      ]
+    },
+    {
+      "title": "Dimensions",
+      "children": [
+        {
+          "title": "City"
+        },
+        {
+          "title": "Wave"
+        }
+      ]
+    },
+    {
+      "title": "Weight"
+    }
+  ]
+}
